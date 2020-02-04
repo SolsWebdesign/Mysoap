@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Sols\Mysoap\Api\MyCustomerRepositoryInterface" type="Sols\Mysoap\Model\MyCustomerRepository"/>
+    <preference for="Sols\Mysoap\Api\Data\MyCustomersInterface" type="Sols\Mysoap\Model\Data\MyCustomers"/>
+    <preference for="Sols\Mysoap\Api\Data\CustomersInterface" type="Sols\Mysoap\Model\Data\Customers"/>
+</config>
